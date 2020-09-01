@@ -1,6 +1,11 @@
 <template>
     <div>
 
+        <div class="text">
+            我的
+
+        </div>
+
         <van-tabbar v-model="active">
             <van-tabbar-item icon="search">首页</van-tabbar-item>
             <van-tabbar-item icon="search">分类</van-tabbar-item>
@@ -31,6 +36,8 @@
     }
 </script>
 
-<style scoped>
-
+<style scoped lang="scss">
+    .text{
+        font-size: .75rem;
+    }
 </style>

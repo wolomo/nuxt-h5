@@ -37,7 +37,8 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    {src: '@/plugins/vant-ui', ssr: true}
+    {src: '@/plugins/vant-ui', ssr: true},
+    {src: '@/plugins/rem', ssr: false},
   ],
   /*
   ** Auto import components
