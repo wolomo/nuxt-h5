@@ -29,12 +29,15 @@ export default {
   ** Global CSS
   */
   css: [
+    // 直接加载一个 Node.js 模块。（在这里它是一个 Sass 文件）
+    // 项目里要使用的 SCSS 文件
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    {src: '@/plugins/vant-ui', ssr: true}
   ],
   /*
   ** Auto import components

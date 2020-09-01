@@ -2,6 +2,8 @@
   <div class="container">
     <div>
       <Logo />
+      <van-button  disabled type="warning">默认按钮</van-button>
+      <van-rate value=3 />
       <h1 class="title">
         nuxt-h5
       </h1>
