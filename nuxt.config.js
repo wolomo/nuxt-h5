@@ -53,7 +53,12 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios'
   ],
+  axios: {
+    prefix: 'http://127.0.0.1:8185/api/',
+    proxy: true
+  },
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
