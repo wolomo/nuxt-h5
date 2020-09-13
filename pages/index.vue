@@ -1,8 +1,9 @@
 <template>
   <div class="container">
     <div>
-        111111111
+        index
     </div>
+
   </div>
 </template>
 
@@ -22,8 +23,14 @@ export default {
         return true
     },
     // 读数据，返回组件
-    asyncData(context){
-        console.log("asyncData")
+    async asyncData({$axios}){
+
+        // console.log(context.$axios)
+        let res = await $axios({url:'/DATA/list.json'})
+        console.log(res.data.name)
+        // return {
+        //     data:res
+        // }
     },
     // 读数据，返回vuex
     fetch(){

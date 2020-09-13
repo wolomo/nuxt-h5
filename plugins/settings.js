@@ -5,7 +5,7 @@
  * @date 2020/9/11 17:37
 
  */
-module.exports = {
+export const Config = {
 
 
   /**
@@ -17,3 +17,4 @@ module.exports = {
    */
   TokenKey: 'HK-MOBILE-SHOP'
 }
+
